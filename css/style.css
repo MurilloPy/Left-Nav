@@ -39,14 +39,24 @@ header{
 
 }
 
-#link-categoria{
+.link-categoria{
 
     display: flex;
     text-decoration: none;
 
 }
 
-#texto-categoria{
+
+
+.link-categoria:hover header{
+
+    padding-right: 100px;
+
+
+}
+
+
+.texto-categoria{
 
     display: none;
     position: absolute;
@@ -57,7 +67,7 @@ header{
 
 }
 
-#link-categoria:hover #texto-categoria{
+.link-categoria:hover .texto-categoria{
 
     display: flex;
 
